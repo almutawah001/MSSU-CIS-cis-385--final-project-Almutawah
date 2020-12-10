@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".homeScreen">
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_centerInParent="true"
+    android:id="@+id/cen"
+    >
+
+</TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/addPizza"
+        android:text="Add Pizza"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        style="@style/ButtonStlye123"
+        android:layout_marginBottom="30dp"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Add Order"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        style="@style/ButtonStlye123"
+        android:layout_marginTop="15dp"
+
+        android:id="@+id/addOrder"
+
+        android:layout_below="@+id/addPizza"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/viewPizza"
+        android:text="View added pizza"
+        android:layout_above="@+id/cen"
+
+        style="@style/ButtonStlye123"
+
+        >
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="View Orders"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        style="@style/ButtonStlye123"
+
+        android:id="@+id/viewOrder"
+
+        android:layout_below="@+id/viewPizza"
+        >
+
+    </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>

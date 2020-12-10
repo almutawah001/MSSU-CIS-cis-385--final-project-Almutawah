@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Smart Pizza Shop</string>
+    <string name="pizza">Pizza</string>
+    <string name="orders">Orders</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="customername">CustomerName</string>
+    <string name="price">Price</string>
+
+    <string name= "NotificationSound">Notification Sound</string>
+    <string name="Notification">Turn on notification sound.</string>
+
+
+    <string name="pref_title_theme">Dark theme</string>
+    <string name="pref_description_theme">Turn on dark theme</string>
+    <string name="settings">settings</string>
+    <string name="customer_name">Customer name</string>
+    <string name="price1">price</string>
+     <string name="servings">Servings</string>
+    <string name="sizes">Sizes</string>
+    <string name="topping">Topping</string>
+    <string name="address">Address</string>
+    <string name="pizza_name">Pizza Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="save">Save</string>
+    <string name="flavour_name">Flavour name</string>
+    <string name="qa">price</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="prepration_time">Prepration time</string>
+    <string name="size">Size</string>
+    <string name="extra_toppings">Extra Toppings</string>
+    <string name="crust_type">Crust Type</string>
+    <string name="q">Save</string>
+    <string name="get_started">Get Started</string>
+    <string name="add_order">Add Order</string>
+    <string name="add_pizza">Add Pizza</string>
+    <string name="pizza_namea">pizza name</string>
+    <string name="customer_numbera">customer number</string>
+    <string name="addressa">address</string>
+</resources>

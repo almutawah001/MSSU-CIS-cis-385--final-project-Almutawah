@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pizza"
+        android:title="@string/pizza"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_pizza_slice" />
+    <item
+        android:id="@+id/orders"
+        android:title="@string/orders"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_order"
+        >
+
+    </item>
+
+</menu>
